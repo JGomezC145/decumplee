@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+
+* {
+    transition: 0.9;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #67d0e5;
+    height:100%;
+}
+h2 {
+    font-family: 'Hachi Maru Pop', cursive;
+    margin-top: 150px;
+    color: #fff;
+}
+p {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+.texxtt {
+    transition: 0.9;
+    margin-top: 25px;
+    color: #fff;
+}
+.smale {
+    text-align: justify;
+    width: 25px;
+}
+.corazon {
+    color: #FFF;
+    background: #000;
+    position:absolute; /*El div será ubicado con relación a la pantalla*/
+    left:0px; /*A la derecha deje un espacio de 0px*/
+    right:0px; /*A la izquierda deje un espacio de 0px*/
+    bottom:0px; /*Abajo deje un espacio de 0px*/
+    height:50px; /*alto del div*/
+    z-index:0;
+     }
